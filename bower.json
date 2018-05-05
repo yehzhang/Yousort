@@ -1,0 +1,28 @@
+{
+  "name": "yousort",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yehzhang/Yousort"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-generics-rep": "^6.0.0",
+    "purescript-typelevel": "^4.0.0",
+    "purescript-unicode": "^4.0.1",
+    "purescript-pux": "^13.0.0",
+    "purescript-github-corners": "^0.2.1",
+    "purescript-materialize": "^0.1.6",
+    "purescript-foreign-object": "^1.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0",
+    "purescript-spec": "^3.0.0",
+    "purescript-quickcheck": "^5.0.0"
+  }
+}
